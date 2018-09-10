@@ -1,3 +1,3 @@
-Repositorio dedicado a lista de Exercícios da disciplina DCA1202
+Repositorio dedicado a primeira lista de Exercícios da disciplina DCA1202
 
-Alunos: 
+Alunos: Caio Felipe Alves e Júlia Neves Guardiani
