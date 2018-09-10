@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+	int i,j,*p,*q;
+
+	p = i;
+	// Ilegal pois p só armazena endereços 
+	q = &j;
+	// Legal
+	p = &*&i;
+	// Legal
+	i = (*&)j;
+	// Ilegal pois o termo (*&) nao e valido porque 'j' não é ponteiro 
+	i = *&j;
+	// Legal
+	i = *&*&j;
+	// Legal
+	q = *p;
+	// Ilegal,pois ponteiro so armazena endereco
+	i = (*p)++ + *q;
+	// a expressao e ilegal
+	return 0;
+}
