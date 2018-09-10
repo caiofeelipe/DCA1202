@@ -1,1 +1,3 @@
-Repositorio dedicado a diciplina DCA1202
+Repositorio dedicado a lista de Exercícios da disciplina DCA1202
+
+Alunos: 
